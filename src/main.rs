@@ -3,7 +3,7 @@ use tui::backend::CrosstermBackend;
 use tui::Terminal;
 use {{crate_name}}::app::{App, AppResult};
 use {{crate_name}}::event::{Event, EventHandler};
-use {{crate_nae}}::handler::handle_key_events;
+use {{crate_name}}::handler::handle_key_events;
 use {{crate_name}}::tui::Tui;
 
 fn main() -> AppResult<()> {
